@@ -9,7 +9,6 @@ const sequelize = new Sequelize('btdpvkgly7p94oa64ivj', 'uhibvwtve2j9bu3t', 'iD0
     dialectModule: mysql2,
 });
 //creando la tablas tablas
-// const Cuentas=Model_Cuentas(sequelize,Sequelize);
 const Shippings=Model_Shippings(sequelize,Sequelize);
 
 sequelize.sync()
